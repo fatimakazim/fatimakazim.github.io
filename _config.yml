@@ -117,14 +117,6 @@ tag_archive:
   type: liquid
   path: /tags/
 
- navigation:
-  - title: "Home"
-    url: /
-  - title: "Blog"
-    url: /blog/
-  - title: "Assignments"
-    url: /assignments/
-  - title: "Digital Literacy Narrative"
-    url: /dln/
+ 
 
 

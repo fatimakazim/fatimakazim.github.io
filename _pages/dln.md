@@ -5,6 +5,7 @@ layout: single
 author_profile: true
 ---
 
+
 Reflections on Digital Literacy: A University Student’s Perspective
 As a 20-year-old university student at a liberal arts institution, I find myself at the intersection of digital fluency and critical inquiry. Digital literacy is not just about knowing how to navigate a computer or use social media; it is about understanding, critiquing, and effectively utilizing digital tools in both academic and personal contexts. My daily and academic life is saturated with technology, and yet, I recognize that I am only scratching the surface of what it means to be digitally literate in an era increasingly shaped by artificial intelligence, data-driven decision-making, and computational thinking.
 Digital Literacy in Content Creation and Social Interaction
