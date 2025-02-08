@@ -5,14 +5,14 @@ layout: single
 author_profile: true
 ---
 <style>
-/* Set the background color to light blue */
+/* background color to light blue */
 body {
     background-color: #e0f7fa; /* Light blue */
     font-family: Arial, sans-serif; /* Change font for a cleaner look */
     color: #333; /* Set a standard text color */
 }
 
-/* Style the title */
+/* the title */
 h1 {
     font-size: 2.5rem;
     color: #00796b; /* Dark teal color for the title */
@@ -20,7 +20,7 @@ h1 {
     margin-top: 20px;
 }
 
-/* Style the main content */
+/* the main content */
 .article-content {
     max-width: 800px;
     margin: 30px auto;
@@ -38,7 +38,7 @@ p {
     text-align: justify;
 }
 
-/* Style for quote or highlighted text */
+/* Style for highlighted text */
 blockquote {
     background-color: #f1f8e9; /* Light green background for blockquotes */
     border-left: 4px solid #00796b; /* Add a green left border */
@@ -62,7 +62,7 @@ a:hover {
 <div class="article-content">
   <h1>Reflections on Digital Literacy: A University Student’s Perspective</h1>
 
-<p>As a 20-year-old university student at a liberal arts institution, I find myself at the intersection of digital fluency and critical inquiry. Digital literacy is not just about knowing how to navigate a computer or use social media; it is about understanding, critiquing, and effectively utilizing digital tools in both academic and personal contexts. My daily and academic life is saturated with technology, and yet, I recognize that I am only scratching the surface of what it means to be digitally literate in an era increasingly shaped by artificial intelligence, data-driven decision-making, and computational thinking.</p>
+<p>As a 21-year-old university student at a liberal arts institution, I find myself at the intersection of digital fluency and critical inquiry. Digital literacy is not just about knowing how to navigate a computer or use social media; it is about understanding, critiquing, and effectively utilizing digital tools in both academic and personal contexts. My daily and academic life is saturated with technology, and yet, I recognize that I am only scratching the surface of what it means to be digitally literate in an era increasingly shaped by artificial intelligence, data-driven decision-making, and computational thinking.</p>
 <h2>Digital Literacy in Content Creation and Social Interaction</h2>
 <p>Digital literacy informs how I engage with content creation and social interaction. For instance, as an interactive media and arts major, I  create  augmented reality experiences and use platforms like Figma to design user interfaces. My peers in Film and New Media might be adept at using Adobe Premiere Pro or DaVinci Resolve for video editing, while those studying  Literature and Creative Writing , use platforms like Medium and Substack to publish essays, engage with communities of writers. Regardless of discipline, we all rely on digital platforms to distribute our work, communicate with audiences, and collaborate with others.</p>
 <p>Social interaction is similarly shaped by digital fluency. Tools like Discord, Slack, and Trello facilitate collaborative academic projects and extracurricular activities. While I might use Instagram or TikTok to share my projects or engage with literature-focused communities, my peers in Art History might curate digital exhibitions on platforms like Google Arts & Culture. Understanding the affordances and limitations of these platforms is a crucial skill—one that extends beyond social engagement to how we construct and critique digital narratives.</p>
