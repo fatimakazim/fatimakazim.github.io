@@ -48,6 +48,9 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+
+
+
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -113,3 +116,15 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+ navigation:
+  - title: "Home"
+    url: /
+  - title: "Blog"
+    url: /blog/
+  - title: "Assignments"
+    url: /assignments/
+  - title: "Digital Literacy Narrative"
+    url: /dln/
+
+

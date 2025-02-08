@@ -1,8 +1,7 @@
 ---
 title: "Digital Literacy Narrative"
-date: 2024-02-06
-categories: blog
-tags: assignment
+permalink: /dln/
+layout: single
 author_profile: true
 ---
 
