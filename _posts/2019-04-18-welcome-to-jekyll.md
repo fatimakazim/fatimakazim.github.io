@@ -69,6 +69,8 @@ Our analysis of A Vindication of the Rights of Woman, The Second Sex, and Ain’
 - Rockwell, Geoffrey, and Stefan Sinclair. "False Positives: Opportunities and Dangers in Big-Data Text Analysis." *Hermeneutica*, 2016, p. 113.  
 - Kirmizialtin, Suphan, and David Joseph Wrisley. "Exploring Gulf Manumission Documents with Word Vectors." *Journal of Digital Islamicate Research*, vol. 2, 2024, pp. 1–29.
 
+  ### ✅READY FOR GRADING✅
+
 
 
 ```
