@@ -14,7 +14,7 @@ Feminist ideas have changed a lot over time, influenced by the historical and so
 ## Methodology
 We conducted a computational analysis using Voyant Tools and R Markdown, generating four key visualizations: a word cloud, a word frequency table, a TF-IDF analysis table, and a word frequency graph. After loading the necessary packages, we combined the three texts into a single data frame, tokenized the text, and removed stop words for accuracy. Using `count(word, sort = TRUE)`, we identified the most frequent words and visualized them in a word cloud. The `bind_tf_idf(word, source, n)` function computed the TF-IDF scores to highlight distinctive words in each text. Finally, we created a word frequency graph to compare linguistic patterns across the three works.
 
-![Word Cloud](https://github.com/fatimakazim/fatimakazim.github.io/blob/master/assets/images/wordcloud.png)
+![Word Cloud] (https://github.com/fatimakazim/fatimakazim.github.io/blob/master/assets/images/wordcloud.png)
 
 
 ## Analysis and Findings
@@ -50,12 +50,14 @@ The findings from this corpus analysis show that the three feminist texts emphas
 This analysis allows us to see the progression of feminist thought, from the fight for equality to the questioning of gender as a construct and the call for a more inclusive movement that considers race, class, and other forms of oppression. The shift from universal to intersectional feminism in the works of Beauvoir and Hooks reflects the growing understanding of the complexity of gender and the need for more inclusive forms of feminist activism.
 
 ## References 
-Beauvoir, Simone de. The Second Sex. Translated by Constance Borde and Sheila Malovany-Chevallier, Vintage, 2011.
-hooks, bell. Ain’t I a Woman: Black Women and Feminism. South End Press, 1981.
-Moi, Toril. Simone de Beauvoir: The Making of an Intellectual Woman. Oxford UP, 2008.
-Wollstonecraft, Mary. A Vindication of the Rights of Woman. Edited by Janet Todd, Oxford UP, 2008.
-Rockwell, Geoffrey, and Stefan Sinclair. False Positives: Opportunities and Dangers in Big-Data Text Analysis. Hermeneutica, 2016, p. 113.
-Kirmizialtin, Suphan, and David Joseph Wrisley. "Exploring Gulf Manumission Documents with Word Vectors." Journal of Digital Islamicate Research, vol. 2, 2024, pp. 1–29.
+
+- Beauvoir, Simone de. *The Second Sex*. Translated by Constance Borde and Sheila Malovany-Chevallier, Vintage, 2011.  
+- hooks, bell. *Ain’t I a Woman: Black Women and Feminism*. South End Press, 1981.  
+- Moi, Toril. *Simone de Beauvoir: The Making of an Intellectual Woman*. Oxford UP, 2008.  
+- Wollstonecraft, Mary. *A Vindication of the Rights of Woman*. Edited by Janet Todd, Oxford UP, 2008.  
+- Rockwell, Geoffrey, and Stefan Sinclair. "False Positives: Opportunities and Dangers in Big-Data Text Analysis." *Hermeneutica*, 2016, p. 113.  
+- Kirmizialtin, Suphan, and David Joseph Wrisley. "Exploring Gulf Manumission Documents with Word Vectors." *Journal of Digital Islamicate Research*, vol. 2, 2024, pp. 1–29.
+
 
 
 ```
