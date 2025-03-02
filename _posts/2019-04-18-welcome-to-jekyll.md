@@ -22,7 +22,8 @@ Feminist ideas have changed a lot over time, influenced by the historical and so
 ## Methodology
 We conducted a computational analysis using Voyant Tools and R Markdown, generating four key visualizations: a word cloud, a word frequency table, a TF-IDF analysis table, and a word frequency graph. After loading the necessary packages, we combined the three texts into a single data frame, tokenized the text, and removed stop words for accuracy. Using `count(word, sort = TRUE)`, we identified the most frequent words and visualized them in a word cloud. The `bind_tf_idf(word, source, n)` function computed the TF-IDF scores to highlight distinctive words in each text. Finally, we created a word frequency graph to compare linguistic patterns across the three works.
 
-![Word Cloud](https://github.com/fatimakazim/fatimakazim.github.io/blob/master/assets/images/wordcloud.png)
+![Word Cloud](https://raw.githubusercontent.com/fatimakazim/fatimakazim.github.io/master/assets/images/wordcloud.png)
+
 
 
 ## Analysis and Findings
