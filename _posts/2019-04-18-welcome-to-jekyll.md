@@ -1,5 +1,5 @@
 ---
-title: "Assignment 1"
+title: "Assignment 1: Working with a Corpus"
 date: 2019-04-18T15:34:30-04:00
 categories:
   - blog
@@ -13,6 +13,8 @@ Feminist ideas have changed a lot over time, influenced by the historical and so
 
 ## Methodology
 We conducted a computational analysis using Voyant Tools and R Markdown, generating four key visualizations: a word cloud, a word frequency table, a TF-IDF analysis table, and a word frequency graph. After loading the necessary packages, we combined the three texts into a single data frame, tokenized the text, and removed stop words for accuracy. Using `count(word, sort = TRUE)`, we identified the most frequent words and visualized them in a word cloud. The `bind_tf_idf(word, source, n)` function computed the TF-IDF scores to highlight distinctive words in each text. Finally, we created a word frequency graph to compare linguistic patterns across the three works.
+
+"/assets/images/wordcloud.png"
 
 ## Analysis and Findings
 For the first part of the analysis, we used Voyant Tools to explore the language in *A Vindication of the Rights of Woman*, *The Second Sex*, and *Ain’t I a Woman*. We looked at word frequency, common phrases, and how key terms are linked to see how each author discussed gender, oppression, and womanhood. In the visualizations, the key terms appear in blue, with larger words representing the most frequently used terms in each text. Additionally, the thicker the line connecting two words, the stronger their relationship, meaning they often appear together in the text. This helped us track changes in feminist thought over time. For example, Wollstonecraft often focused on reason, Beauvoir on otherness, and Hooks on race and intersectionality. By studying these connections, we gained insight into how feminist ideas have evolved across different historical periods.
