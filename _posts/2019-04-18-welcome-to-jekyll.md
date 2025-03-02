@@ -1,6 +1,5 @@
 ---
-title: "Assignment 1: How Feminist Ideas Evolved"
-description: "A Textual Analysis of Gender, Oppression, and Identity By Fatima and Ghadir"
+title: "Assignment 1"
 date: 2019-04-18T15:34:30-04:00
 categories:
   - blog
@@ -8,7 +7,9 @@ tags:
   - digital Humanities
   - update
 ---
-## By Fatima and Ghadir
+## How Feminist Ideas Evolved: A Textual Analysis of Gender, Oppression, and Identity 
+### By Fatima and Ghadir
+
 ## Introduction
 Feminist ideas have changed a lot over time, influenced by the historical and social challenges of each era. This study looks at three important feminist texts: *A Vindication of the Rights of Woman* (1792) by Mary Wollstonecraft, *The Second Sex* (1949) by Simone de Beauvoir, and *Ain’t I a Woman: Black Women and Feminism* (1981) by Bell Hooks. Each of these books pushes back against the way society defines women, but they do so in different ways. Wollstonecraft, writing in the 18th century, argues that women are not naturally inferior but are kept in a lower position because they are denied education and opportunities (Wollstonecraft). She believed women should be seen as rational individuals, just like men. Over 150 years later, Beauvoir introduced the idea that womanhood is not something women are born into, but something society forces upon them, showing how women have been treated as the "Other" in a world designed for men (Beauvoir 267; Moi). Then, in the late 20th century, Hooks took feminism further by exposing its failure to address race and class, arguing that Black women experience oppression differently because they face both racism and sexism (Hooks). Looking at these three books together, we can see how feminist ideas have expanded, from fighting for basic rights like education to questioning what it even means to be a woman and addressing the larger power structures that shape oppression. Over time, feminism has become more complex and inclusive, reflecting the diverse struggles women have faced across history.
 
@@ -43,6 +44,7 @@ Wollstonecraft’s text, on the other hand, includes words like whilst and dutie
 
 
 ![Word Graph](https://raw.githubusercontent.com/fatimakazim/fatimakazim.github.io/master/assets/images/frequency%20graph.png)
+
 The graphs compare word usage between the three texts. In the graph comparing Simone de Beauvoir and bell hooks, the words most frequently used by Hooks are male, female, power, American, Black, feminist, and power. The presence of "Black" and "American" suggests that national and racial identity are central to her feminist critique, which aligns with her focus on intersectionality. The repetition of “power” suggests that Hooks’s work is primarily about power structures. She is interested in how gender, race, and nationality intersect to shape power dynamics. Compared to Beauvoir and Wollstonecraft, she is more explicitly concerned with structural oppression and intersectionality rather than individual agency or moral virtue.
 
 Simone de Beauvoir's most used words are feels, abandon, body, love, and girl. The dominance of “feels” and “love” suggests that Beauvoir’s work is highly subjective and psychological—she is interested in how women experience oppression internally. The words “abandon” and “girl” suggest a focus on socialization—how girls are conditioned to be dependent, emotional, and secondary to men. Beauvoir’s feminism is about how women come to understand themselves—the existential crisis of being reduced to one’s body, emotions, and relationships rather than being recognized as a fully autonomous subject. Unlike Hooks, who focuses on power structures, Beauvoir is concerned with how women internalize oppression and struggle to break free from it.
