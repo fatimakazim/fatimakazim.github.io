@@ -1,4 +1,6 @@
 ---
+layout: default
+markdown: kramdown
 title: "Assignment 2"
 categories:
   - Blog
@@ -71,11 +73,14 @@ We found that specific and image-based prompts worked better than generic ones. 
 # Metadata Enrichment and Geocoding
 The three main types of metadata we added were location, date, and coordinates. The first two were based on the headings in the article. We also created a category tag based on the type of licences. The most time-consuming was the geocoding, as we completed it manually. There were many difficulties, as many of the residences were not listed online, perhaps because they are now archaic terms for these places. We also noticed that many of the spellings used in the publication had changed to their modern, standardised spellings. There were also some residences that had similar names with only slight spelling variations (Mwebeni vs Mwembeni) that we were not sure were spelling errors in the publication or just names that are less common. https://www.mindat.org/ was a helpful source for some of the residences, but they did not have highly specific coordinates for all locations. Google Maps was also used heavily since it provides coordinates for all districts or locations that we could manually copy and paste.
 
-# 5. Data Cleaning and Manual Corrections
+#  Data Cleaning and Manual Corrections
 One of the main struggles we had was matching up geocodes for residences that showed up in both of our data samples, since we found the codes independently of each other. We manually adjusted these residences so that they all matched up. We chose to keep ‘unique’ spellings of locations even if they have the same coordinates so that the data text would still match the original source material, as there were few instances, and it would not skew the data significantly. Using simple Excel techniques, we were able to organise the data. Since the sample was also relatively small, only 230 lines, we did not need to use any functions, and just manually checking after filtering and sorting was enough.
 
 # Visualisation Layers and Techniques
-[file:///Users/fatimakazim/Downloads/kepler.gl%20(1).htm](file:///Users/fatimakazim/Downloads/kepler.gl%20(1).htm)  
+
+
+<iframe src="/assets/kepler-map.html" width="100%" height="600px" style="border:none;"></iframe>
+
 For this map, we chose a clustered point layer, grouping nearby licence points into single bubbles whose size reflects the number of licences in that locale. We set the colour based on the string field license type, so each cluster’s hue tells you the dominant license category there. Opacity was dialled back (∼27 %) to avoid over‑saturation, and I used subtractive blending so overlapping circles darken rather than simply pile on top of one another. Although this screenshot doesn’t show it, I also added a category filter dropdown (Retail, Trade, Finance, Craft, Entertainment) so I can toggle layers on and off.
 
 # Observed Patterns & Clusters
