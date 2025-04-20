@@ -100,7 +100,11 @@ This quote underscores the importance of examining the nuances and complexities 
 Overall, this assignment helped us uncover spatial and economic patterns in colonial Zanzibar through data extraction and visualization. Despite challenges, the process offered valuable insights into how historical records can be analyzed using digital tools.
 
 ### Data and Source Files
-- [Jan](https://fatimakazim.github.io/assets/jan license.pdf)
+- [Jan-license-section](https://fatimakazim.github.io/assets/jan-license.pdf)
+- [Feb-license-section](https://fatimakazim.github.io/assets/feb-license.pdf)
+- [zanzibar-licenses-dataset-1914](https://fatimakazim.github.io/assets/zanzibar.csv)
 # Resources
 Klein, Lauren, et al. “Provocations from the humanities for generative ai research.” *arXiv preprint* arXiv:2502.19190 (2025).
+
+</div>
 
