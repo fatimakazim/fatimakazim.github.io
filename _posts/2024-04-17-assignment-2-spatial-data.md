@@ -79,13 +79,8 @@ One of the main struggles we had was matching up geocodes for residences that sh
 ## Visualisation Layers and Techniques
 
 <div style="max-width: 900px; margin: auto;">
-
-<iframe src="/assets/kepler-map.html" width="100%" height="600px" style="border:none;"></iframe>
-
-  <p>For this map, we chose a clustered point layer, grouping nearby licence points into single bubbles whose size reflects the number of licences in that locale. We set the colour based on the string field license type, so each cluster’s hue tells you the dominant license category there. Opacity was dialled back (∼27 %) to avoid over‑saturation, and I used subtractive blending so overlapping circles darken rather than simply pile on top of one another. Although this screenshot doesn’t show it, I also added a category filter dropdown (Retail, Trade, Finance, Craft, Entertainment) so I can toggle layers on and off.</p>
-
+  <iframe src="/assets/kepler-map.html" width="100%" height="600px" style="border:none;"></iframe>
 </div>
-
 
 For this map, we chose a clustered point layer, grouping nearby licence points into single bubbles whose size reflects the number of licences in that locale. We set the colour based on the string field license type, so each cluster’s hue tells you the dominant license category there. Opacity was dialled back (∼27 %) to avoid over‑saturation, and I used subtractive blending so overlapping circles darken rather than simply pile on top of one another. Although this screenshot doesn’t show it, I also added a category filter dropdown (Retail, Trade, Finance, Craft, Entertainment) so I can toggle layers on and off.
 
