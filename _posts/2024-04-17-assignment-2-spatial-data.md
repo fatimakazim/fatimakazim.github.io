@@ -1,5 +1,4 @@
 ---
-layout: default
 markdown: kramdown
 title: "Assignment 2"
 categories:
