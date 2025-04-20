@@ -9,8 +9,6 @@ tags:
   - Post Formats
 ---
 
-<div style="max-width: 800px; margin: auto; padding: 2rem; line-height: 1.6;">
-
 # Introduction
 For this assignment, we focused on extracting data from the Zanzibar Gazette published in 1914. Our selected dataset centres on Commercial Licences Issued in Zanzibar, a recurring section in the Gazette that lists individuals, their place of residence, and the type of business licence they were granted. We chose this dataset because it offers a unique glimpse into the economic landscape of colonial Zanzibar—what kinds of trades were being practised, where economic activity was concentrated, and who was participating in this commercial ecosystem.  
 Our curiosity was particularly piqued by the relationship between residences and license types, as it could reveal spatial patterns of labour, class, or ethnic organisation in Zanzibar’s society at the time. By mapping out these relationships, we hoped to uncover not just individual data points but a more layered understanding of the island’s economic geography.
@@ -106,5 +104,4 @@ Overall, this assignment helped us uncover spatial and economic patterns in colo
 # Resources
 Klein, Lauren, et al. “Provocations from the humanities for generative ai research.” *arXiv preprint* arXiv:2502.19190 (2025).
 
-</div>
 
