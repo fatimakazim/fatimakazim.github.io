@@ -7,6 +7,10 @@ categories:
 tags:
   - link
   - Post Formats
+---
+
+<div style="max-width: 800px; margin: auto; padding: 2rem; line-height: 1.6;">
+
 
 ---
 # Introduction
