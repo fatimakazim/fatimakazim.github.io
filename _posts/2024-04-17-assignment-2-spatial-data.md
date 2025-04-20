@@ -76,10 +76,16 @@ The three main types of metadata we added were location, date, and coordinates. 
 #  Data Cleaning and Manual Corrections
 One of the main struggles we had was matching up geocodes for residences that showed up in both of our data samples, since we found the codes independently of each other. We manually adjusted these residences so that they all matched up. We chose to keep ‘unique’ spellings of locations even if they have the same coordinates so that the data text would still match the original source material, as there were few instances, and it would not skew the data significantly. Using simple Excel techniques, we were able to organise the data. Since the sample was also relatively small, only 230 lines, we did not need to use any functions, and just manually checking after filtering and sorting was enough.
 
-# Visualisation Layers and Techniques
+## Visualisation Layers and Techniques
 
+<div style="max-width: 900px; margin: auto;">
 
 <iframe src="/assets/kepler-map.html" width="100%" height="600px" style="border:none;"></iframe>
+
+  <p>For this map, we chose a clustered point layer, grouping nearby licence points into single bubbles whose size reflects the number of licences in that locale. We set the colour based on the string field license type, so each cluster’s hue tells you the dominant license category there. Opacity was dialled back (∼27 %) to avoid over‑saturation, and I used subtractive blending so overlapping circles darken rather than simply pile on top of one another. Although this screenshot doesn’t show it, I also added a category filter dropdown (Retail, Trade, Finance, Craft, Entertainment) so I can toggle layers on and off.</p>
+
+</div>
+
 
 For this map, we chose a clustered point layer, grouping nearby licence points into single bubbles whose size reflects the number of licences in that locale. We set the colour based on the string field license type, so each cluster’s hue tells you the dominant license category there. Opacity was dialled back (∼27 %) to avoid over‑saturation, and I used subtractive blending so overlapping circles darken rather than simply pile on top of one another. Although this screenshot doesn’t show it, I also added a category filter dropdown (Retail, Trade, Finance, Craft, Entertainment) so I can toggle layers on and off.
 
