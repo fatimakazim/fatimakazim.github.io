@@ -35,10 +35,12 @@ I also tried using Gemini, but it performed poorly in comparison. The results in
 
 Gemini also hallucinated location names and inserted entries that didn’t exist in the original text, so I eventually discontinued using it.  
 Here’s a screenshot of a table extracted by Gemini:  
+![Gemini](https://raw.githubusercontent.com/fatimakazim/fatimakazim.github.io/master/assets/images/Gemini.png)
 Here’s a screenshot of a table extracted by ChatGPT-4:
-
+![Gemini](https://raw.githubusercontent.com/fatimakazim/fatimakazim.github.io/master/assets/images/GPT.png)
 ## Tools Used and Workflow – Insiya
 While working on the data from February licenses in Zanzibar, we used Transkribus. Originally, I attempted to use Perplexity, which tends to hallucinate less, but it does not support image detection, so I decided to use Transkribus, a software I worked with before. By using the free Transkribus Print M1 model, I was able to get a very accurate reading of the text. There were almost no errors in letter transcription, but there were a few challenges with the detection of text in general. For example, many sections would not be recognised, and for many words, the beginning or ending would be cut off. Using the section and pen tool, I was able to mark up where the text was in the document. I also tried to make use of the table tool, but it was very finicky, so I decided to just keep it as regular text detection.
+![Transkribus](https://raw.githubusercontent.com/fatimakazim/fatimakazim.github.io/master/assets/images/transkribus2.png)
 
 Example of marked-up text in Transkribus.  
 The output from Transkribus was very accurate in terms of letters; I had to make only minor edits to get exact matches. To organise this information into table data, I used Perplexity AI. I sent the following prompt with the data from each section (which was organised in regions from Transkribus).
