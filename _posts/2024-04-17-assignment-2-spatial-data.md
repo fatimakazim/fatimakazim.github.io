@@ -7,14 +7,15 @@ tags:
   - link
   - Post Formats
 ---
-
+# Commercial Licences in 1914 Zanzibar
+##  By Fatima and Insiya
 # Introduction
 For this assignment, we focused on extracting data from the Zanzibar Gazette published in 1914. Our selected dataset centres on Commercial Licences Issued in Zanzibar, a recurring section in the Gazette that lists individuals, their place of residence, and the type of business licence they were granted. We chose this dataset because it offers a unique glimpse into the economic landscape of colonial Zanzibar—what kinds of trades were being practised, where economic activity was concentrated, and who was participating in this commercial ecosystem.  
 Our curiosity was particularly piqued by the relationship between residences and license types, as it could reveal spatial patterns of labour, class, or ethnic organisation in Zanzibar’s society at the time. By mapping out these relationships, we hoped to uncover not just individual data points but a more layered understanding of the island’s economic geography.
 
 # Source Material and Data Selection
 To identify relevant entries for our dataset, we began by using the search function in the PDF version of the Zanzibar Gazette, searching specifically for the keyword “license”. This approach allowed us to efficiently locate all instances where licences were listed in tabular form. We focused on Gazette pages 84 to 173, which included license records from January and February 1914.  
-The entries we extracted typically appeared in a standardised format. Each section began with a licence issue date, followed by the type or category of licence (e.g., Money Lender's Licence, Broker's Licences, Hawker’s Licences), and then a table listing the licence holders. These tables generally had three columns: the name of the person or entity to whom the licence was issued, their place of residence, and their nationality. The structured nature of these entries made them suitable for data extraction, analysis, and visualisation. Insert (image from the Gazette)
+The entries we extracted typically appeared in a standardised format. Each section began with a licence issue date, followed by the type or category of licence (e.g., Money Lender's Licence, Broker's Licences, Hawker’s Licences), and then a table listing the licence holders. These tables generally had three columns: the name of the person or entity to whom the licence was issued, their place of residence, and their nationality. The structured nature of these entries made them suitable for data extraction, analysis, and visualisation. 
 
 # Data Modelling and Structure
 The most time-consuming and challenging part of this assignment was the data extraction process. We experimented with multiple tools, primarily ChatGPT, Gemini, and Transkribus, to convert the scanned license listings into structured data.
@@ -101,7 +102,10 @@ Overall, this assignment helped us uncover spatial and economic patterns in colo
 - [Jan-license-section](https://fatimakazim.github.io/assets/jan-license.pdf)
 - [Feb-license-section](https://fatimakazim.github.io/assets/feb-license.pdf)
 - [zanzibar-licenses-dataset-1914](https://fatimakazim.github.io/assets/zanzibar.csv)
+
 # Resources
 Klein, Lauren, et al. “Provocations from the humanities for generative ai research.” *arXiv preprint* arXiv:2502.19190 (2025).
+
+☑️READY FOR GRADING☑️
 
 
