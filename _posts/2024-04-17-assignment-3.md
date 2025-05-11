@@ -12,7 +12,9 @@ For this project, I chose to explore Pakistani truck art, which is a vibrant and
 
 ## Grid 1: No Categories
 To begin, I curated a dataset of 105 images sourced from Getty Images. For the initial cluster analysis, I deliberately avoided pre-sorting the images into folders. Instead, I fed the entire dataset into Orange Data Mining to observe how the AI would organically group the visuals.
-![Map](https://drive.google.com/file/d/1cnthZ5gGb-q-FKdoF0RTKIPS6d4Cck8p/view?usp=sharing)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fatimakazim/fatimakazim.github.io/master/assets/images/1.png" width="50%" alt="Transkribus Screenshot"/>
+</p>
 
 - On the right side, the AI grouped images with detailed art panels, particularly those featuring geometric and floral designs.
 
@@ -24,11 +26,15 @@ I then applied hierarchical clustering to examine the data in more depth. This a
 
 ## Grid 2:  Perspective-Based Categorization of Pakistani Truck Art
 - For the second categorization, I manually sorted the dataset into four folders based on visual perspective: side view, front view, tyre, and detailed art—with the latter consisting of close-up shots highlighting the intricate designs painted on the trucks.
-![Map](https://drive.google.com/file/d/1DRJh6MyAJ6nfu2JQdcUx_eLuCZSVNTKO/view?usp=sharing)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fatimakazim/fatimakazim.github.io/master/assets/images/2ndC.PNG" width="50%" alt="Transkribus Screenshot"/>
+</p>
 
 Once processed through the AI model, the image grid revealed some clear visual organization patterns. Notably, there was strong clustering by decorative style, particularly on the left side of the grid, where detailed art panels featuring geometric and floral patterns were grouped closely—often organized by dominant colors such as reds, blues, and greens. The central and right portions of the grid mostly contained full truck views, organized loosely by shooting angle. Meanwhile, tyre close-ups appeared primarily along the bottom row, though they were more scattered and lacked the tight coherence of other categories.
 
-![Map](https://drive.google.com/file/d/1KpPsEuWxxlbOJR14A8V9xNmk-lnzOhf3/view?usp=sharing)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fatimakazim/fatimakazim.github.io/master/assets/images/2nd one.png" width="50%" alt="Transkribus Screenshot"/>
+</p>
 
 ### AI Interpretation Insights
 
@@ -38,7 +44,9 @@ From an AI interpretation standpoint, it became clear that the model prioritized
 
 Analyzing Grid 3 revealed a key shift from earlier angle- or perspective-based categorizations to one rooted in content, such as “motifs and flowers,” “animal designs,” “far away,” and “low quality.” This change introduced more variety in the AI’s arrangement and highlighted how visual traits like color and subject matter shaped the grid layout.
 
-![Map](https://drive.google.com/file/d/1hykOyB8v7_7ZS5yqlYzfIUHy4hW10hzm/view?usp=sharing)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fatimakazim/fatimakazim.github.io/master/assets/images/3rdC.PNG" width="50%" alt="Transkribus Screenshot"/>
+</p>
 
 The right side of the grid stood out for its dense clustering of decorative panels, especially those with vibrant reds, blues, and greens. These clearly aligned with the “motifs and flowers” category, suggesting the AI responded strongly to visual richness and decorative intensity.
 
@@ -48,12 +56,20 @@ The left side featured many distant and low-quality images — trucks in broader
 
 Despite this content shift, color remained a dominant organizing principle. Red panels were grouped together even if labeled under different categories like “closeup” or “motif,” showing the model still leans on aesthetic similarity over semantic distinctions.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fatimakazim/fatimakazim.github.io/master/assets/images/3rd one.png" width="50%" alt="Transkribus Screenshot"/>
+</p>
+
 Some categories, like “motifs and flowers” and “animal designs,” showed strong, accurate clustering. These culturally rich visuals share distinct shapes and colors, making them easier for the AI to recognize. However, overlap between these categories was also common — for instance, animal designs often resembled floral motifs in composition and tone — which explains the visual blending and cross-classifications.
 
 In contrast, more abstract labels like “far away” and “low quality” were harder for the AI to parse consistently. Their placement often relied more on shared lighting or resolution than the intended category, underlining the challenges of training models to recognize subjective visual cues.
 
 
 ## Exploring VGG-19 vs. InceptionV3
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fatimakazim/fatimakazim.github.io/master/assets/images/3.2.png" width="50%" alt="Transkribus Screenshot"/>
+</p>
 
 To see how a different algorithm would interpret my dataset of Pakistani truck art, I decided to use VGG-19. I was curious how its visual organization would compare to InceptionV3, which I had tested earlier. While both models worked with the same inputs, their outputs showed some noticeable differences, especially in terms of color grouping, clustering, and layout structure.
 
@@ -64,16 +80,25 @@ In contrast, InceptionV3 offered a looser, more blended layout. While decorative
 ## Analysis of Zero-Shot
 
 - Prompt 1: "A truck with vibrant floral motifs and mirrors"
+  <p align="center">
+  <img src="https://raw.githubusercontent.com/fatimakazim/fatimakazim.github.io/master/assets/images/V.png" width="50%" alt="Transkribus Screenshot"/>
+</p>
 
 Using a highly descriptive prompt, “a truck with vibrant floral motifs and mirrors” yielded near-perfect confidence scores (ranging from 99.99 to 99.95) across all four images. The model correctly identified trucks from various angles, including side, close-up, and rear views.
 What stood out to me was how effective the prompt was when combining multiple specific visual cues. The model clearly performed best when asked to identify distinct features such as “floral motifs” and “bright colors” alongside the object “truck.” This indicates that it benefits from detailed, compound prompts that match its learned visual vocabulary. In contrast, single-word cultural concepts on their own tend to generate weaker results.
 
 - Prompt 2: "Animal"
+  <p align="center">
+  <img src="https://raw.githubusercontent.com/fatimakazim/fatimakazim.github.io/master/assets/images/An.png" width="50%" alt="Transkribus Screenshot"/>
+</p>
 
 I was initially skeptical about how well the model would respond to the word “animal,” given how stylized and integrated animal imagery is within truck art. To my surprise, the model identified all the images containing animals with decent accuracy.
 However, it became clear that while the model could tell that an animal was present, it had trouble locating or interpreting animals embedded within decorative panels. Images where the animal was more clearly represented received higher scores, while those featuring stylized or symbolic depictions scored zero. This suggests that although the model has been trained on realistic images of animals, it still struggles with abstract or highly stylized representations — a common trait in South Asian decorative arts.
 
 - Prompt 3: "Tyre"
+  <p align="center">
+  <img src="https://raw.githubusercontent.com/fatimakazim/fatimakazim.github.io/master/assets/images/T.png" width="50%" alt="Transkribus Screenshot"/>
+</p>
 
 When I used the prompt “tyre,” the model’s performance was especially strong. It accurately pulled images featuring wheels or close-ups of tires, assigning significantly higher confidence scores (1.38, 1.21, 0.52) to the relevant images.
 This made it clear that the model is far more confident when identifying mechanical or functional objects, such as tyres, compared to culturally specific motifs. The recognition seems driven by the tire’s distinctive circular form and familiar structure, which are easily mapped to the model’s training data. The contrast in scoring, particularly when compared to more culturally embedded elements, highlights the model’s stronger background in recognizing mechanical features over regional artistic content.
@@ -86,6 +111,10 @@ My image captioning results reveal significant limitations in how AI interprets 
 ### - Functional Recognition vs. Cultural Blindness
 
 The first image caption — **"a truck is parked on the side of a road"** — demonstrates how the AI reduces a richly decorated Pakistani truck to its basic utilitarian function.
+
+ <p align="center">
+  <img src="https://raw.githubusercontent.com/fatimakazim/fatimakazim.github.io/master/assets/images/r.png" width="50%" alt="Transkribus Screenshot"/>
+</p>
 
 While technically accurate at identifying the object, it completely overlooks:
 
@@ -100,6 +129,9 @@ While technically accurate at identifying the object, it completely overlooks:
 ### - Visual Misinterpretation
 
 The second caption — **"a colorful picture of a colorful painted wall with a colorful painted flower"** — is particularly revealing:
+ <p align="center">
+  <img src="https://raw.githubusercontent.com/fatimakazim/fatimakazim.github.io/master/assets/images/b.png" width="50%" alt="Transkribus Screenshot"/>
+</p>
 
 - Misidentifies truck art **birds** as **flowers**  
 - Incorrectly categorizes a **vehicle panel** as a **"wall"**
@@ -112,6 +144,9 @@ The second caption — **"a colorful picture of a colorful painted wall with a c
 
 The third caption — **"a man is looking out of a window"** — strips away all cultural specificity:
 
+ <p align="center">
+  <img src="https://raw.githubusercontent.com/fatimakazim/fatimakazim.github.io/master/assets/images/w.png" width="50%" alt="Transkribus Screenshot"/>
+</p>
 - Ignores the **ornate decorative framing** typical of Pakistani truck windows  
 - Reduces an **artisan's workspace** to a mundane action  
 - Misses the **mirror work** and **painted borders** that distinguish this as truck art  
@@ -123,6 +158,9 @@ The third caption — **"a man is looking out of a window"** — strips away all
 ### - Complete Misidentification
 
 The fourth caption — **"a man is sitting on a bed with a large stuffed animal"** — reveals the most dramatic failure:
+ <p align="center">
+  <img src="https://raw.githubusercontent.com/fatimakazim/fatimakazim.github.io/master/assets/images/idk.png" width="50%" alt="Transkribus Screenshot"/>
+</p>
 
 - Completely **misinterprets truck artists at work**  
 - **Fabricates non-existent objects** (bed, stuffed animal)  
