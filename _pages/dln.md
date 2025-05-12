@@ -104,3 +104,12 @@ a:hover {
 <p>In conclusion, my understanding of digital literacy has undergone a profound transformation, evolving from a narrow focus on tools and technologies to a more holistic appreciation for the intersections of digital and human experiences. By embracing this evolving perspective, I am confident that I can navigate the digital landscape with greater intentionality, creativity, and ethical awareness, ultimately becoming a more well-rounded and digitally literate individual. </p>
 </div>
 
+References:
+
+Rockwell, G., & Sinclair, S. (2016). False Positives.
+
+Weber, A. (2024). Why We Should Digitize Historical Newspapers.
+
+Smith, B. (2024). LLMs and Practical Knowledge: What is Intelligence?
+
+Rane, N., & Choudhary, S. (2024). Role and Challenges of ChatGPT, Google Bard, and Similar Generative AI in Arts and Humanities.
